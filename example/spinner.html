@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>spinner - CSS3 Loading Icon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="../src/style.css" />
+<style>
+#show, #hide {
+	position: relative;
+	z-index: 9999;
+}
+</style>
+<script src="../src/spLoader.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	var loading = new SPLoader({
+		icon: 'spinner'
+	});
+
+	document.getElementById('show').addEventListener('click', function(e) {
+		loading.show();
+	}, false);
+
+	document.getElementById('hide').addEventListener('click', function(e) {
+		loading.hide();
+	}, false);
+
+}, false);
+</script>
+</head>
+<body>
+<h1>DEMO - spinner</h1>
+<button id="show">Show Loading</button>
+<button id="hide">Hide Loading</button>
+</body>
+</html>

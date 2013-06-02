@@ -1,0 +1,28 @@
+{
+  "name": "my-blog",
+  "version": "0.0.0",
+  "description": "my blog.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuhiisk/yuhiisk.github.io.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "yuhiisk",
+  "license": "mit",
+  "gitHead": "1dc69f69fdea39c7cf8e082c36fba06a197ce603",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-sass": "~0.3.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0"
+  }
+}
